@@ -74,7 +74,7 @@ router.delete('/:id', async (req, res) => {
     });
 
     if (!categoryData) {
-      res.status(404).json({ message: 'No Category card found with that id!' });
+      res.status(404).json({ message: 'No Category  found with that id!' });
       return;
     }
 
